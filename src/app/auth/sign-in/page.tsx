@@ -13,7 +13,7 @@ const SignInPage = async () => {
   })
 
   if (session) {
-    redirect("/dashboard")
+    redirect("/chat")
   }
 
   return (
